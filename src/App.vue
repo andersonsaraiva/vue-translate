@@ -27,7 +27,8 @@ export default {
     return {
       languages: [
         { flag: "us", language: "en", title: "English" },
-        { flag: "es", language: "es", title: "Español" }
+        { flag: "es", language: "es", title: "Español" },
+        { flag: "pt", language: "pt", title: "Português" }
       ]
     };
   },

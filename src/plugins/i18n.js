@@ -19,12 +19,20 @@ const messages = {
         plugins: 'Plugins de CLI instalados',
         links: 'Enlaces esenciales',
         ecosystem: 'Ecosistema'
+    },
+    'pt': {
+        welcomeMsg: 'Bem vindo a sua aplicação vue.js',
+        guide: 'Para um guia e receitas sobre como configurar / personalizar este projeto,',
+        checkout: 'Confira',
+        plugins: 'Plugins Instalados por CLI',
+        links: 'Links Essenciais',
+        ecosystem: 'Ecossistema'
     }
 };
 
 const i18n = new VueI18n({
     locale: 'en', // set locale
-    fallbackLocale: 'es', // set fallback locale
+    fallbackLocale: ['es', 'pt'], // set fallback locale
     messages, // set locale messages
 });
 
